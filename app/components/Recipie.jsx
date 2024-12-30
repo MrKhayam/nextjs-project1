@@ -4,7 +4,7 @@ import React from 'react';
 const Recipie = ({recipe}) => {
   return (
     <>
-      <div className="md:w-72 w-full p-4 h-auto rounded-md bg-zinc-900">
+      <div className="md:w-72 w-full text-white p-4 h-auto rounded-md bg-zinc-900">
         <div className="image bg-gray-400 rounded-lg overflow-hidden w-full h-40">
           <img
             className="w-full cursor-pointer transition-all duration-300 hover:scale-105 h-full object-cover"

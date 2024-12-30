@@ -16,7 +16,7 @@ const page = () => {
   );
   return (
     <>
-      <div className="w-full min-h-screen md:p-10 px-2 py-5">
+      <div className="w-full min-h-screen md:p-10 px-2 py-5 bg-black text-white">
         <Link href="/" className="top w-max flex gap-2">
           <FaLongArrowAltLeft size={25} />
           <h1 className="text-xl font-semibold">Recipes</h1>
